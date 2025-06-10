@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Student Academic Data Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="studentid">Student ID:</label>
+        <input type="text" id="studentid" name="studentid" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required /><br /><br />
+
+        <label for="year">Year:</label>
+        <select id="year" name="year" required>
+            <option value="">Select Year</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select><br /><br />
+
+        <label for="gpa">GPA:</label>
+        <input type="number" id="gpa" name="gpa" step="0.01" min="0" max="10" required /><br /><br />
+
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
